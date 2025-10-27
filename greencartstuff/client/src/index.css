@@ -1,0 +1,18 @@
+/* Tailwind should always be the first import */
+@import "tailwindcss";
+
+/* Global font family (Google Fonts are loaded in index.html) */
+* {
+  font-family: "Outfit", sans-serif;
+}
+
+/* Custom theme variables */
+@theme {
+  --color-primary: #4fbf8b;
+  --color-primary-dull: #44ae7c;
+}
+
+
+.no-scrollbar::-webkit-scrollbar{
+  display: none;
+}
